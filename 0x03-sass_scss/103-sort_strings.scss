@@ -14,7 +14,7 @@ $mapped-words: ();
 
 @each $word in $list_to_sort {
     $char: str-slice($word, 0, 1);
-    $index:($order, $char);
+    $index: index($order, $char);
     $mapped-words: map-set($mapped-words, $index, $word);
 }
 $words-sorted: ();
