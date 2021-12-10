@@ -37,7 +37,7 @@ html {
       color: var(--color-black);
       font-family: var(--font-family-base);
       font-size: var(--font-size-medium);
-      line-height: var(--line-height-base);
+      min-height: var(--line-height-base);
   }
  
  
