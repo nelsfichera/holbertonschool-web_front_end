@@ -1,0 +1,27 @@
+// sort list of strings 
+@import '103-sort_list';
+
+@function map-set($map, $key, $value) {
+    $new: (
+        $key: $value,
+    );
+    @return map-merge($map, $new);
+}
+
+$order: 'a' 'b' 'c' 'd' 'e' 'f' 'g' 'h' 'i' 'j' 'k' 'l' 'm' 'n' 'o' 'p' 'q' 'r' 's' 't' 'u' 'v' 'x' 'y' 'z' '';
+
+$mapped-words: ();
+
+@each $word in $list_to_sort {
+    $char: str-slice($word, 0, 1);
+    $index: index($order, $char);
+    $mapped-words: map-set($mapped-words, $index, $word);
+}
+$words-sorted: ();
+@for $letter-index from 1 through length($order) {
+    $position: map-get($mapped-words, $letter-index);
+    @if $position {
+        $words-sorted: append($words-sorted, $position);
+    }
+}
+@debug $words-sorted;
