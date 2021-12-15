@@ -1,0 +1,58 @@
+:root {
+    --box-width: 20rem;
+    --box-height: 10rem;
+    --font-size: 4em;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    display: flex;
+    line-height: var(--box-height);
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 3em;
+    align-self: baseline;
+  }
+  
+  .box1 {
+    background-color: #000000;
+    height: calc(var(--box-height) / 1.5);
+    width: calc(var(--box-width) / 1.5);
+    font-size: calc(var(--font-size) / 1.5);
+    line-height: calc(var(--box-height) / 1.5);
+  }
+  
+  .box2 {
+    background-color: #555555;
+    height: calc(var(--box-height) / 1.2);
+    width: calc(var(--box-width) / 1.2);
+    font-size: calc(var(--font-size) / 1.2);
+    line-height: calc(var(--box-height) / 1.2);
+  }
+  
+  .box3 {
+    background-color: #999999;
+    height: var(--box-height);
+    width: var(--box-width);
+    font-size: var(--font-size);
+  }
+  
+  .box4 {
+    background-color: #555555;
+    height: calc(var(--box-height) / 1.2);
+    width: calc(var(--box-width) / 1.2);
+    font-size: calc(var(--font-size) / 1.2);
+    line-height: calc(var(--box-height) / 1.2);
+  }
+  
+  .box5 {
+    background-color: #000000;
+    height: calc(var(--box-height) / 1.5);
+    width: calc(var(--box-width) / 1.5);
+    font-size: calc(var(--font-size) / 1.5);
+    line-height: calc(var(--box-height) / 1.5);
+  }
