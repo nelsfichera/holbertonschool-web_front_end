@@ -27,7 +27,7 @@
     --color-green: #08805b;
   
     --text-color: var(--color-black);
-    --valid-color: var(var(--color-green);
+    --valid-color: var(--color-green);
     --error-color: var(--color-red);
   
     --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -156,7 +156,7 @@
 
   .button-primary {
       color: var(--color-white);
-      background: --color-primary;
+      background: var(--color-primary);
   }
 
   .button-primary:hover{
