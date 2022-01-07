@@ -4,13 +4,14 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 For this project, you will use Bootstrap 4.4 and only the CSS styling part.
 
+#### Requirements:
+* You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes
+* You can not change the HTML structure - only adding classes is allowed
+
 ### 0. Reboot styling
 
 ### 1. Blocks
 
-#### Requirements:
-* You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes
-* You can not change the HTML structure - only adding classes is allowed
 #### Behaviors/styles:
 
 * For all cells of all rows: Padding at .5rem, Background color of the name of the cell, Text centered and white
@@ -23,9 +24,6 @@ For this project, you will use Bootstrap 4.4 and only the CSS styling part.
 
 ### 2. Table of chemical elements
 
-#### Requirements:
-* You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes
-* You can not change the HTML structure - only adding classes is allowed
 #### Behaviors/styles:
 
 * Header: With border bottom, Padding .5rem and margin bottom 1rem, Background color “light”
@@ -35,10 +33,6 @@ For this project, you will use Bootstrap 4.4 and only the CSS styling part.
 
 ### 3. Cards
 
-#### Requirements:
-
-* You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes
-* You can not change the HTML structure - only adding classes is allowed
 #### Behaviors/styles:
 
 * The first div is a container with a break at 992px and padding of 3rem
@@ -56,9 +50,6 @@ For this project, you will use Bootstrap 4.4 and only the CSS styling part.
 
 ### 4. Bob Dylan
 
-#### Requirements:
-* You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes
-* You can not change the HTML structure - only adding classes is allowed
 #### Behaviors/styles:
 
 * Body background is dark
@@ -75,11 +66,6 @@ For this project, you will use Bootstrap 4.4 and only the CSS styling part.
 From this HTML:
 Build this responsive web page:
 
-#### Requirements:
-
-* You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes
-* You can not change the HTML structure - only adding classes is allowed
-
 #### Behaviors/styles:
 
 * Big title is displayed only for width screen > 768px
@@ -92,9 +78,6 @@ Build this responsive web page:
 ### 6. Overwrite CSS
 With this HTML: (one Bootstrap template example)
 Create the custom stylesheet 6-styles.css to match this layout.
-#### Requirements:
-* You are not allow to define any styling in the head or inline of the HTML
-* You can not change the HTML
 
 ##### New styles:
 
