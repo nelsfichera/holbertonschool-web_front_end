@@ -9,7 +9,6 @@ For this project, you will use Bootstrap 4.4 and only the CSS styling part.
 * You can not change the HTML structure - only adding classes is allowed
 
 ### 0. Reboot styling
-<img src='https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/3/0b67c90b07246a25d1f8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220107T002532Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f98f13f9c44c0e5a242f1c7e871198547845426d65de832204bb83537b206e7c' width: 300 />
 
 
 ### 1. Blocks
