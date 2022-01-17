@@ -1,5 +1,5 @@
-# 0x0C. JavaScript advanced file: 0-welcome.js
-## 0. Lexical scoping and welcome message
+# 0x0C. JavaScript advanced 
+## 0. Lexical scoping and welcome message file: 0-welcome.js
 ### Create a function named welcome:
 
 It takes two arguments: firstName (string) and lastName (string)
