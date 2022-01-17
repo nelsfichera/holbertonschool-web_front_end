@@ -1,4 +1,4 @@
-# 0x0C. JavaScript advanced
+# 0x0C. JavaScript advanced file: 0-welcome.js
 ## 0. Lexical scoping and welcome message
 ### Create a function named welcome:
 
@@ -8,7 +8,7 @@ Within the welcome function, write a function named displayFullName:
 It should display an alert with the message Welcome + the variable fullName + and exclamation mark.
 Call the function displayFullName at the end of the function welcome
 
-## 1. Closure Scope Chain
+## 1. Closure Scope Chain file: 1-nested_functions.js
 ### Running the script should display three popups one by one with the text Welcome, Welcome Holberton, and Welcome Holberton!
 Create a variable named globalVariable with value Welcome
 Create a function outer that:
@@ -29,7 +29,7 @@ Call the function outer in the main code (outside any function)
 Call the function inner within outer
 Call the function inception within inner
 
-## 2. Closure 
+## 2. Closure file: 2-function_me.js
 ### Write a function named welcomeMessage:
 
 It accepts one argument fullName (string)
@@ -45,7 +45,8 @@ Should display three alerts like below:
 <img src="./images/welcome_alex.png">
 <img src="./images/welcome_fred.png">
 
-## 3. Closure and loops
+## 3. Closure and loops file: 3-classrooms.js
+
 ### Write a function named createClassRoom
 
 It takes into argument numbersOfStudents (number)
@@ -55,7 +56,7 @@ Using a loop from 0 to numbersOfStudents, pass the number of iteration + 1 to st
 Returns the students array
 Create a closure classRoom, calling createClassRoom with 10 students
 
-## 4. Complex Closure
+## 4. Complex Closure file: 4-math.js
 ### Create a function divideBy
 
 It takes into argument firstNumber (number)
@@ -73,7 +74,7 @@ addBy1000, that uses the function addBy with the number 1000
 divideBy10, that uses the function divideBy with the number 10
 divideBy100, that uses the function divideBy with the number 100
 
-## 5. Changing DOM with closure
+## 5. Changing DOM with closure file: 5-mode.js
 ### Create a function named changeMode
 #### Use vanilla JavaScript to add the elements to the DOM and change the style of the page
 #### JQuery not allowed!
@@ -99,7 +100,7 @@ Clicking the Dark mode button should change the web page to look something like 
 Clicking the Scream mode button should change the web page to look something like this:
 <img src="./images/scream_mode.png">
 
-## 6. Private methods with closure
+## 6. Private methods with closure file: 6-hogwarts.js
 ### Write a module named studentHogwarts
 
 It contains two variables privateScore set to 0, and name set to null
@@ -121,7 +122,7 @@ Reward the student one time
 Penalize the student three times
 Log to the console the name and score
 
-## 7. Stack order and setTimeout
+## 7. Stack order and setTimeout file: 7-timeout.js
 ### Write the following commands in the following order
 
 Log to the console Start of the execution queue
@@ -129,7 +130,7 @@ Log to the console Final code block to be executed using setTimeout (with delay 
 Using a loop that iterates 100 times, each iteration logs to the console the iteration number
 Log to the console End of the loop printing
 
-## 8. Stack order in functions
+## 8. Stack order in functions file: 8-payments.js
 ### Write a function processPayment
 
 It takes one argument amount (number)
@@ -148,7 +149,7 @@ Call processOrder with 12322 and 12.99
 Call processOrder with 12323 and 15.0
 Logs to the console All the orders have been processed
 
-## 9. Prime numbers & timing execution
+## 9. Prime numbers & timing execution file: 9-prime.js
 ### Write a function named countPrimeNumbers
 #### You must use performance API to measure the time needed to execute the function (performance.now())
 #### Your code should display something in the range of Execution time of printing countPrimeNumbers was 0.2700000002514571 milliseconds.
@@ -156,7 +157,7 @@ Logs to the console All the orders have been processed
 It will return the number of prime numbers from 2 to 100
 Log to the console the time in milliseconds to execute the function in this format: Execution time of printing countPrimeNumbers was <time used> milliseconds.
 
-## 10. Execution stack & timing execution
+## 10. Execution stack & timing execution file: 10-prime.js
 ### Reuse the function countPrimeNumbers from 9-prime.js (copy/paste)
 #### Your code should display something in the range of Execution time of calculating prime numbers 100 times was 40.865000002551824 milliseconds.
 
@@ -164,7 +165,7 @@ Log to the console the time in milliseconds to execute the function in this form
 Execute the function countPrimeNumbers 100 times
 Log to the console the time in milliseconds to execute the function 100 times
 
-## 11. Changing stack order using setTimeout
+## 11. Changing stack order using setTimeout file: 11-prime.js
 ### Reuse the function countPrimeNumbers from 10-prime.js (copy/paste)
 #### Your code should display something in the range of Execution time of calculating prime numbers 100 times was 0.03999999910593033 milliseconds.
 #### Use setTimeout keyword to change the stack order
@@ -172,7 +173,7 @@ Log to the console the time in milliseconds to execute the function 100 times
 Log to the console the time in milleseconds to execute the function 100 times
 Find a way to actually do most of the calculation at the end of the execution stack
 
-## 12. Binding
+## 12. Binding file: 12-room_area.js
 ### Create an object named roomDimensions with the following three attributes
 
 width: 50
